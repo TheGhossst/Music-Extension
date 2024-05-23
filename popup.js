@@ -29,8 +29,7 @@ document.getElementById('fileInput').addEventListener('change', function(event) 
             });
         };
         reader.readAsArrayBuffer(file);
-
-        // Handle pause button functionality
+        
         pauseButton.style.display = 'block';
         pauseButton.textContent = 'Pause';
 
