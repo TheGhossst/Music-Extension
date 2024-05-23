@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    width: 300px;
+    background-color: #1d1d1d;
+    color: #fff;
+    text-align: center;
+}
+
+h1 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #ff9f00;
+}
+
+input[type="file"] {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: none;
+    background-color: #ff9f00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+audio {
+    width: 100%;
+    margin-top: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#songName {
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+#pauseButton {
+    margin-top: 10px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #ff9f00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+#pauseButton:hover {
+    background-color: #ff7f00;
+}
